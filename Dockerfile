@@ -3,8 +3,6 @@ MAINTAINER Pablo Saenz psaenz@hpe.com
 
 ENV container docker
 ENV DEBIAN_FRONTEND noninteractive
-ENV http_proxy http://web-proxy.houston.hpecorp.net:8080
-ENV https_proxy http://web-proxy.houston.hpecorp.net:8080
 
 RUN echo "APT::Get::Install-Recommends 'false'; \n\
   APT::Get::Install-Suggests 'false'; \n\
